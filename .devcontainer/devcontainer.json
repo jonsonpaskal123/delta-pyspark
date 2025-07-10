@@ -1,0 +1,8 @@
+{
+  "name": "Python 3.11.4 with PySpark & Delta",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11.4",
+  "postCreateCommand": "pip install pyspark==3.3.2 delta-spark==2.1.0",
+  "features": {},
+  "settings": {},
+  "extensions": []
+}
