@@ -3,6 +3,8 @@
   "image": "mcr.microsoft.com/devcontainers/python:3.11.4",
   "postCreateCommand": "pip install pyspark==3.3.2 delta-spark==2.1.0",
   "features": {},
-  "settings": {},
+  "settings": {
+    "python.defaultInterpreterPath": "/usr/local/bin/python"
+  },
   "extensions": []
 }
